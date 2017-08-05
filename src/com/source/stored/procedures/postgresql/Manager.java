@@ -14,8 +14,8 @@ public class Manager  {
 	//static reference to itself
     private static Manager instance = new Manager();
     public static final String URL = "jdbc:postgresql://localhost:5432/book_db"; 
-    public static final String USER = "postgres";
-    public static final String PASSWORD = "<your user postgres password>"; 
+    public static final String USER = "<your user database>";
+    public static final String PASSWORD = "<your user password>"; 
     public static final String DRIVER_CLASS = "org.postgresql.Driver"; 
      
     //private constructor
